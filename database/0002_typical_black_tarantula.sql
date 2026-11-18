@@ -1,0 +1,2 @@
+CREATE INDEX `notifications_user_status_date_idx` ON `notifications` (`userId`,`status`,`createdAt`);--> statement-breakpoint
+CREATE INDEX `notifications_group_date_idx` ON `notifications` (`groupId`,`createdAt`);
